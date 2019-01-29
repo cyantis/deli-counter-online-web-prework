@@ -29,4 +29,5 @@ end
 
 array = []
 take_a_number(array)
+now_serving
 take_a_number(array)
