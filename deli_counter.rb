@@ -14,7 +14,7 @@ end
 
 def take_a_number(katz_deli)
   #katz_deli is now an array of ticket numbers, not names
-  ticket = katz_deli.length
+  ticket = katz_deli.length + 1
   katz_deli.push(ticket)
   puts "Welcome, you are ticket number #{ticket}. You are number #{katz_deli.length} in line."
 end
@@ -27,7 +27,7 @@ def now_serving(katz_deli)
   end
 end
 
-array = [1,2,3,4,5]
+array = []
 take_a_number(array)
 now_serving(array)
 take_a_number(array)
