@@ -27,3 +27,4 @@ end
 
 array = []
 take_a_number(array, "John")
+take_a_number(array, "Sally")
