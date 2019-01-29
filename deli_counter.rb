@@ -1,3 +1,5 @@
+require 'pry'
+
 katz_deli = []
 $ticket = 1
 
