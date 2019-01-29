@@ -26,5 +26,7 @@ def now_serving(katz_deli)
 end
 
 array = []
+now_serving(array)
 take_a_number(array, "John")
+now_serving(array)
 take_a_number(array, "Sally")
