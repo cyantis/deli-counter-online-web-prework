@@ -14,6 +14,7 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli)
+  binding.pry
   #katz_deli is now an array of ticket numbers, not names
   katz_deli.push($ticket)
   puts "Welcome, you are ticket number #{$ticket}. You are number #{katz_deli.length} in line."
