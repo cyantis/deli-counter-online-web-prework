@@ -31,3 +31,4 @@ array = []
 take_a_number(array)
 take_a_number(array)
 now_serving(array)
+now_serving(array)
